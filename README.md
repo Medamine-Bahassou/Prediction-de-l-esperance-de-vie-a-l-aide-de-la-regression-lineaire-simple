@@ -1,1 +1,2 @@
-# Prediction-de-l-esperance-de-vie-a-l-aide-de-la-regression-lineaire-simple
+# Prédiction de l'espérance de vie à l'aide de la régression linéaire simple
+
