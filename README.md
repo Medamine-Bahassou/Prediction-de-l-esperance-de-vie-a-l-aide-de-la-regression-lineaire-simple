@@ -42,7 +42,7 @@ forte, mais elle est négative, indiquant qu'une augmentation de la mortalité a
 associée à une diminution de l'espérance de vie.
 
 ## 5) Préparation des données :
-```import pandas as pd
+``` import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
@@ -52,13 +52,15 @@ X = df[selected_variables_X]
 y = df[selected_variables_Y]
 #Split the data into training and test sets
 X_train, X_test, y_train, y_test = train_test_split(X, y,
-test_size=0.35, random_state=42)```
+test_size=0.35, random_state=42)
+```
 
 ## 6) Construction du modèle :
 
 ```#Train a simple linear regression model
 model = LinearRegression()
-model.fit(X_train, y_train)```
+model.fit(X_train, y_train)
+```
 
 ## 7) Évaluation du modèle :
 ```#Faire des prédictions sur l'ensemble de test
