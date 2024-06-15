@@ -42,7 +42,7 @@ forte, mais elle est négative, indiquant qu'une augmentation de la mortalité a
 associée à une diminution de l'espérance de vie.
 
 ## 5) Préparation des données :
-``import pandas as pd
+```import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
@@ -52,16 +52,16 @@ X = df[selected_variables_X]
 y = df[selected_variables_Y]
 #Split the data into training and test sets
 X_train, X_test, y_train, y_test = train_test_split(X, y,
-test_size=0.35, random_state=42)``
+test_size=0.35, random_state=42)```
 
 ## 6) Construction du modèle :
 
-``#Train a simple linear regression model
+```#Train a simple linear regression model
 model = LinearRegression()
-model.fit(X_train, y_train)``
+model.fit(X_train, y_train)```
 
 ## 7) Évaluation du modèle :
-``#Faire des prédictions sur l'ensemble de test
+```#Faire des prédictions sur l'ensemble de test
 y_pred = model.predict(X_test)
 from sklearn.metrics import mean_squared_error, r2_score
 #Calculer la MSE
@@ -70,13 +70,13 @@ print("Mean Squared Error:", mse)
 #Calculer le R²
 r2 = r2_score(y_test, y_pred)
 print(f'R² Score: {r2}')
-``
+```
 **Output :**
 Mean Squared Error: 5.264736837236674
 R² Score: 0.49740820899422744
 
 ## 8) Visualisation des résultats :
-``import pandas as pd
+```import pandas as pd
 from sklearn.model_selection import cross_val_score, cross_validate,
 KFold, cross_val_predict
 from sklearn.linear_model import LinearRegression
@@ -127,17 +127,17 @@ plt.title(f'Cross-validated Actual vs Predicted Life Expectancy (R^2 =
 {scores.mean():.2f})')
 plt.legend()
 plt.show()
-``
+```
 ![image](https://github.com/Medamine-Bahassou/Prediction-de-l-esperance-de-vie-a-l-aide-de-la-regression-lineaire-simple/assets/146652318/d65a411d-d161-49dd-a074-206823b294e8)
 
 ## 9) Interprétation des résultats :
-``#Analyse
+```#Analyse
 print("Intercept:", model.intercept_)
 print("Coefficient:", model.coef_[0])
 #Interprétation
 print(f"L'espérance de vie augmente de {model.coef_[0]} années pour
 chaque année supplémentaire de scolarisation.")
-``
+```
 
 **Interprétation Finale**
 Les résultats de l'analyse montrent des relations significatives entre plusieurs facteurs
