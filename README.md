@@ -1,8 +1,10 @@
 # Prédiction de l'espérance de vie à l'aide de la régression linéaire simple
 
 ## 1) Exploration des données :
-- Pour explorer les données on utilise : ```df = d.read_csv('Life_Expectancy_Data.csv')```
-- Pour tracer l’histogramme on utilise : ```sns.histplot(df['Life_expectancy'], kde=True)```
+- Pour explorer les données on utilise : ```df = d.read_csv('Life_Expectancy_Data.csv')
+  ```
+- Pour tracer l’histogramme on utilise : ```sns.histplot(df['Life_expectancy'], kde=True)
+  ```
 ![image](https://github.com/Medamine-Bahassou/Prediction-de-l-esperance-de-vie-a-l-aide-de-la-regression-lineaire-simple/assets/146652318/ab6c2007-740e-47a3-8ea3-2bca1f5eddfe)
 
 ### Pays en développement contre pays développés
@@ -145,7 +147,8 @@ print(f"L'espérance de vie augmente de {model.coef_[0]} années pour
 chaque année supplémentaire de scolarisation.")
 ```
 
-**Interprétation Finale**
+**Interprétation Finale :**
+
 Les résultats de l'analyse montrent des relations significatives entre plusieurs facteurs
 socio-économiques et l'espérance de vie. Voici une interprétation détaillée des résultats
 obtenus :
@@ -181,7 +184,8 @@ Les prédictions du modèle pour les nouvelles observations sont les suivantes :
 
 <hr>
 
-**Conclusion**
+### Conclusion : 
+
 Le modèle de régression linéaire multiple a montré que plusieurs facteurs
 socio-économiques ont des impacts significatifs sur l'espérance de vie. Les résultats des
 scores de validation croisée R^2 indiquent que le modèle explique bien la variabilité de
