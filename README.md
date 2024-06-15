@@ -152,33 +152,34 @@ socio-économiques et l'espérance de vie. Voici une interprétation détaillée
 obtenus :
 Coefficient de détermination R^2
 Les scores R^2 de validation croisée pour le modèle sont les suivants :
-● Scores R^2 de validation croisée (test) : [0.6875, 0.5721, 0.6669, 0.6608, 0.6672,
+
+- Scores R^2 de validation croisée (test) : [0.6875, 0.5721, 0.6669, 0.6608, 0.6672,
 0.7243, 0.7445, 0.7137, 0.7218]
-● Scores R^2 de validation croisée (train) : [0.6847, 0.6996, 0.6869, 0.6878, 0.6874,
+- Scores R^2 de validation croisée (train) : [0.6847, 0.6996, 0.6869, 0.6878, 0.6874,
 0.6800, 0.6787, 0.6815, 0.6803]
 Le coefficient de détermination moyen R^2 pour le test est de 0.6843, ce qui signifie que
 le modèle explique environ 68.43% de la variabilité de l'espérance de vie.
 Coefficients du Modèle
 Les coefficients obtenus du modèle de régression linéaire multiple sont les suivants :
-● Intercept : 64.3209
-● Coefficients : [-0.0354, 0.2084, -0.2944, 17.8567]
+- Intercept : 64.3209
+- Coefficients : [-0.0354, 0.2084, -0.2944, 17.8567]
 Interprétation des Coefficients
 Les coefficients indiquent l'impact des variables indépendantes sur l'espérance de vie :
-● Première variable (e.g., scolarisation) : Une augmentation d'une unité est associée
+- Première variable (e.g., scolarisation) : Une augmentation d'une unité est associée
 à une diminution de l'espérance de vie de 0.0354 années.
-● Deuxième variable : Une augmentation d'une unité est associée à une
+- Deuxième variable : Une augmentation d'une unité est associée à une
 augmentation de l'espérance de vie de 0.2084 années.
-● Troisième variable : Une augmentation d'une unité est associée à une diminution de
+- Troisième variable : Une augmentation d'une unité est associée à une diminution de
 l'espérance de vie de 0.2944 années.
-● Quatrième variable : Une augmentation d'une unité est associée à une
+- Quatrième variable : Une augmentation d'une unité est associée à une
 augmentation de l'espérance de vie de 17.8567 années.
 Prédictions
 Les prédictions du modèle pour les nouvelles observations sont les suivantes :
-● Espérance de vie prédite pour la première observation : 70.1619 années
-● Espérance de vie prédite pour la deuxième observation : 68.3208 années
-● Espérance de vie prédite pour la troisième observation : 66.4797 années
-● Espérance de vie prédite pour la quatrième observation : 64.6387 années
-● Espérance de vie prédite pour la cinquième observation : 62.7976 années
+- Espérance de vie prédite pour la première observation : 70.1619 années
+- Espérance de vie prédite pour la deuxième observation : 68.3208 années
+- Espérance de vie prédite pour la troisième observation : 66.4797 années
+- Espérance de vie prédite pour la quatrième observation : 64.6387 années
+- Espérance de vie prédite pour la cinquième observation : 62.7976 années
 
 <hr>
 
