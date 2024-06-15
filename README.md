@@ -1,4 +1,4 @@
-![image](https://github.com/Medamine-Bahassou/Prediction-de-l-esperance-de-vie-a-l-aide-de-la-regression-lineaire-simple/assets/146652318/65a686a4-2d59-4762-abf9-035a5ea45fcd)# Prédiction de l'espérance de vie à l'aide de la régression linéaire simple
+# Prédiction de l'espérance de vie à l'aide de la régression linéaire simple
 
 ## 1) Exploration des données :
 - Pour explorer les données on utilise : ```df = d.read_csv('Life_Expectancy_Data.csv')```
