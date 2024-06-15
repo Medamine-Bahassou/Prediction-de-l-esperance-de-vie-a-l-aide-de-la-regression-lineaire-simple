@@ -1,12 +1,8 @@
 # Prédiction de l'espérance de vie à l'aide de la régression linéaire simple
 
 ## 1) Exploration des données :
-- Pour explorer les données on utilise :
-``` df = d.read_csv('Life_Expectancy_Data.csv')
-```
-- Pour tracer l’histogramme on utilise :
-``` sns.histplot(df['Life_expectancy'], kde=True)
-```
+- Pour explorer les données on utilise :```df = d.read_csv('Life_Expectancy_Data.csv')```
+- Pour tracer l’histogramme on utilise :```sns.histplot(df['Life_expectancy'], kde=True)```
 ![image](https://github.com/Medamine-Bahassou/Prediction-de-l-esperance-de-vie-a-l-aide-de-la-regression-lineaire-simple/assets/146652318/ab6c2007-740e-47a3-8ea3-2bca1f5eddfe)
 
 ### Pays en développement contre pays développés
